@@ -12,7 +12,7 @@
             background-color: white;
         }
         header {
-            background-color: white;
+            background-color: #add8e6; /* Light blue */
             color: black;
             text-align: center;
             padding: 1rem;
@@ -35,15 +35,17 @@
             background: white;
             padding: 20px;
             margin-top: 20px;
+        }
+        .about-container {
             display: flex;
             align-items: center;
         }
-       .profile-pic {
+        .profile-pic {
             width: 300px;
             height: 350px;
             object-fit: cover;
             margin-right: 20px;
-       }  
+        }  
         .content {
             flex: 1;
         }
@@ -51,7 +53,7 @@
             text-align: center;
             padding: 1rem;
             background-color: white;
-            color: white;
+            color: black;
             margin-top: 20px;
         }
     </style>
@@ -68,33 +70,27 @@
         <a href="#contact">Contact</a>
     </nav>
 
-<div class="container" id="about">
-        <img src="PavlovaM_2025.jpg" alt="Margarita Pavlova" class="profile-pic">
-    <div class="content">     
-    <h2>About Me</h2>
-    <p>Hi! I'm a PhD Candidate in Economics at CERGE-EI, Prague. I am an applied microeconomist specializing in Labor and Gender Economics. My research focuses on how macroeconomic conditions, labor market policies, and institutional factors shape labor market outcomes. I am particularly interested in the long-term effects of economic shocks, wage determination, and labor market inequalities. </p>
-    
-   <p> You can find my CV <a href="your-cv-link.pdf" target="_blank">here</a></p>
-
-    <p>Email: Margarita.Pavlova@cerge-ei.cz</p>
-     </div>
+    <div class="container" id="about">
+        <div class="about-container">
+            <img src="PavlovaM_2025.jpg" alt="Margarita Pavlova" class="profile-pic">
+            <div class="content">     
+                <h2>About Me</h2>
+                <p>Hi! I'm a PhD Candidate in Economics at CERGE-EI, Prague. I am an applied microeconomist specializing in Labor and Gender Economics. My research focuses on how macroeconomic conditions, labor market policies, and institutional factors shape labor market outcomes. I am particularly interested in the long-term effects of economic shocks, wage determination, and labor market inequalities. </p>
+                <p>You can find my CV <a href="your-cv-link.pdf" target="_blank">here</a></p>
+                <p>Email: Margarita.Pavlova@cerge-ei.cz</p>
+            </div>
+        </div>
     </div>
-
     
     <div class="container" id="research">
         <h2>Research</h2>
         <p><strong>Working Papers:</strong></p>
         <p><em>"Competition and the Gender Pay Gap: Evidence from Russian Trade Withdrawal"</em></p>
-       <p> Abstract: In 2014, Russia imposed an import embargo on selected goods, effectively reducing trade flows and decreasing import competition across several industries. In this paper, I analyze the effect of this decrease in product market competition on the gender pay gap in Russia. This research complements the body of evidence which implies that increases in product market competition lead to lower
-gender pay gaps. The empirical analysis relates 2011-2019 industry-specific gender wage gaps estimated from the Russian Longitudinal Monitoring Survey to the industry-level evolution of import
-penetration. The results show that a 10 percentage point reduction in import competition leads to an increase of about 4 percentage point in gender pay gap. This increase is smaller in magnitude than
-the effect found in the US but larger than that observed in some Eastern European countries. This
-phenomenon partly corresponds to an exacerbation of the gender employment gap driven primarily
-by high-skilled women leaving industries where import shares, and consequently competition, declined.</p>
-      <p><a href="https://www.cerge-ei.cz/pdf/wp/Wp788.pdf" target="_blank">Paper</a></p>  
-
+        <p>Abstract: In 2014, Russia imposed an import embargo on selected goods, effectively reducing trade flows and decreasing import competition across several industries. In this paper, I analyze the effect of this decrease in product market competition on the gender pay gap in Russia. This research complements the body of evidence which implies that increases in product market competition lead to lower gender pay gaps. The empirical analysis relates 2011-2019 industry-specific gender wage gaps estimated from the Russian Longitudinal Monitoring Survey to the industry-level evolution of import penetration. The results show that a 10 percentage point reduction in import competition leads to an increase of about 4 percentage points in the gender pay gap. This increase is smaller in magnitude than the effect found in the US but larger than that observed in some Eastern European countries. This phenomenon partly corresponds to an exacerbation of the gender employment gap driven primarily by high-skilled women leaving industries where import shares, and consequently competition, declined.</p>
+        <p><a href="https://www.cerge-ei.cz/pdf/wp/Wp788.pdf" target="_blank">Paper</a></p>  
         <p><strong>Work in Progress:</strong></p>
-         <p><em>"Graduates in a Cycle: Effect of Early-Career Recessions on Labor Market Outcomes of College Graduates"</em>[draft is available upon request]</p>
+        <p><em>"Graduates in a Cycle: Effect of Early-Career Recessions on Labor Market Outcomes of College Graduates"</em></p>
+        <p>[draft is available upon request]</p>
     </div>
     
     <div class="container" id="cv">
@@ -113,4 +109,3 @@ by high-skilled women leaving industries where import shares, and consequently c
     </footer>
 </body>
 </html>
-
