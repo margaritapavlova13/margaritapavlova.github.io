@@ -1,78 +1,87 @@
-<!doctype html>
-<html>
-  <head>
-    <!-- Page setup -->
-    <meta charset="utf-8">
-    <title>Margarita Pavlova</title>
-    <meta name="description" content="A brief description of your site for search engines">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/png" href="favicon.png">
-  
-    <!-- Stylesheets -->
-    <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
-    <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
-
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    
-  </head>
-  
-  <body>
-
-    <header id="header">
-      <img src="logo.jpg">
-      <h1>Simple Website</h1>
-      
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>                 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margarita Pavlova - Academic Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #002244;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #003366;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Margarita Pavlova</h1>
+        <p>Researcher | Economist</p>
     </header>
-   
-    <div id="container">
-      <div class="inner">
-        <div id="content"> 
-          
-          <div id="home" class="content-region hide">
-            <h2>Home</h2>
-            <p>
-              This is a simple website template published with Github Pages. <a href="https://github.com/cpl-makerlab/simple-website-template">Fork this repository</a> to create your own site!
-            </p>
-          </div>
-          
-          <div id="about" class="content-region hide">
-            <h2>About</h2>
-            <p>
-              Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
-            </p>
-          </div>
-          
-          <div id="contact" class="content-region hide">
-            <h2>Contact</h2>
-            <p>
-              Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
-            </p>
-          </div>
-          
-        </div>
-      </div>
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#cv">CV</a>
+        <a href="#research">Research</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="container" id="about">
+        <h2>About Me</h2>
+        <p>I'm an Economics PhD Candidate at CERGE-EI, Prague. I work under supervision of Stepan Jurajda. My research relates to Labor Economics with particular focus on Gender differences.</p>
     </div>
-
-    <footer>  
-      Footer region
+    
+    <div class="container" id="research">
+        <h2>Research Interests</h2>
+        <p>List and describe your key research areas.</p>
+    </div>
+    
+    <div class="container" id="cv">
+        <h2>CV</h2>
+        <p><a href="your-cv-link.pdf" target="_blank">Download CV</a></p>
+    </div>
+    
+    <div class="container" id="contact">
+        <h2>Contact</h2>
+        <p>Email: Margarita.Pavlova@cerge-ei.cz</p>
+        <p>Office: Your University, Address</p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Margarita Pavlova. All Rights Reserved.</p>
     </footer>
-    
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
-    
-  </body>
+</body>
 </html>
+
